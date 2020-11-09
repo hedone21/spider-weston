@@ -12,5 +12,6 @@ wayland_egl_dep = dependency('wayland-egl')
 weston_dep = dependency('weston')
 # libweston6_dep = dependency('libweston-6')
 
+subdir('protocol')
 subdir('shell')
 subdir('client')
